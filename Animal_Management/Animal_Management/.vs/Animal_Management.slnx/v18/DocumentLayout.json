@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|c:\\users\\vnord\\github\\mau_cs2\\animal_management\\animal_management\\animalgen\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|solutionrelative:animalgen\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|c:\\users\\vnord\\github\\mau_cs2\\animal_management\\animal_management\\animalgen\\categorytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|solutionrelative:animalgen\\categorytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|c:\\users\\vnord\\github\\mau_cs2\\animal_management\\animal_management\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|c:\\users\\vnord\\github\\mau_cs2\\animal_management\\animal_management\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{793B5976-9715-42F8-BBCF-A9CB579DAE1C}|Animal_Management.csproj|C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{793B5976-9715-42F8-BBCF-A9CB579DAE1C}|Animal_Management.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|c:\\users\\vnord\\github\\mau_cs2\\animal_management\\animal_management\\mammals\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|solutionrelative:mammals\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|c:\\users\\vnord\\github\\mau_cs2\\animal_management\\animal_management\\animalgen\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D80614B2-A5CD-05D5-C19F-29192B9D2FFB}|Animal_Management.csproj|solutionrelative:animalgen\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T10:46:25.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:03:10.099Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mammal.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\Mammals\\Mammal.cs",
+              "RelativeDocumentMoniker": "Mammals\\Mammal.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\Mammals\\Mammal.cs",
+              "RelativeToolTip": "Mammals\\Mammal.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T12:03:23.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryType.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\AnimalGen\\CategoryType.cs",
+              "RelativeDocumentMoniker": "AnimalGen\\CategoryType.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\AnimalGen\\CategoryType.cs",
+              "RelativeToolTip": "AnimalGen\\CategoryType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T11:53:48.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenderType.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\AnimalGen\\GenderType.cs",
+              "RelativeDocumentMoniker": "AnimalGen\\GenderType.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\AnimalGen\\GenderType.cs",
+              "RelativeToolTip": "AnimalGen\\GenderType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T08:43:12.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\AnimalGen\\Animal.cs",
+              "RelativeDocumentMoniker": "AnimalGen\\Animal.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\AnimalGen\\Animal.cs",
+              "RelativeToolTip": "AnimalGen\\Animal.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T08:24:22.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Animal_Management\\Animal_Management\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T08:19:14.57Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

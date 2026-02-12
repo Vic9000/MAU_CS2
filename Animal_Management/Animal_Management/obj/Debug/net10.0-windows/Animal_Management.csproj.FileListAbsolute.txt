@@ -1,0 +1,16 @@
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.MainForm.resources
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.csproj.GenerateResource.cache
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.AssemblyInfoInputs.cache
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.AssemblyInfo.cs
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.csproj.CoreCompileInputs.cache
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\bin\Debug\net10.0-windows\Animal_Management.exe
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\bin\Debug\net10.0-windows\Animal_Management.deps.json
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\bin\Debug\net10.0-windows\Animal_Management.runtimeconfig.json
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\bin\Debug\net10.0-windows\Animal_Management.dll
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\bin\Debug\net10.0-windows\Animal_Management.pdb
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.dll
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\refint\Animal_Management.dll
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.pdb
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\Animal_Management.genruntimeconfig.cache
+C:\Users\vnord\Github\MAU_CS2\Animal_Management\Animal_Management\obj\Debug\net10.0-windows\ref\Animal_Management.dll
