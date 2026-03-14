@@ -1,106 +1,54 @@
 using Assignment1;
+using Assignment2;
 
 namespace Assignment1
 {
     public partial class MainForm : Form
     {
+        private AnimalManager animalManager = new AnimalManager();
+        private Animal currAnimal = null;
+
         public MainForm()
         {
             InitializeComponent();
+
             InitializeGUI();
         }
 
         private void InitializeGUI()
         {
-            lbxCategory.DataSource = Enum.GetValues(typeof(CategoryType));
-
+            txtName.Text = "";
+            txtAge.Text = "";
+            txtWeight.Text = "";
             cmbGender.DataSource = Enum.GetValues(typeof(GenderType));
-
-            lbxCategory.SelectedIndex = -1;
-            cmbGender.SelectedIndex = (int)GenderType.Unknown;
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void UpdateGUI()
         {
-            if (lbxCategory.SelectedItem == null || lbxSpecies.SelectedItem == null)
+            lbx.Items.Clear(); 
+
+            string[] infoStrings = animalManager.ToStringSummaryAllAnimals();
+
+            if (infoStrings != null)
             {
-                MessageBox.Show("Please select both a category and a species.");
-                return;
-            }
-
-            string species = lbxSpecies.SelectedItem.ToString();
-            CategoryType selectedCategory = (CategoryType)lbxCategory.SelectedItem;
-            Animal animal = null;
-
-            if (selectedCategory == CategoryType.Mammal)
-            {
-                using (MammalView mammalForm = new MammalView(species))
-                {
-                    if (mammalForm.ShowDialog() == DialogResult.OK)
-                        animal = mammalForm.CreatedMammal;
-                }
-            }
-            else if (selectedCategory == CategoryType.Reptile)
-            {
-                using (ReptileView reptileForm = new ReptileView(species))
-                {
-                    if (reptileForm.ShowDialog() == DialogResult.OK)
-                        animal = reptileForm.CreatedReptile;
-                }
-            }
-
-            if (animal != null)
-            {
-                animal.Name = txtName.Text;
-
-                if (int.TryParse(txtAge.Text, out int age)) animal.Age = age;
-
-                if (decimal.TryParse(txtWeight.Text, out decimal weight)) animal.Weight = weight;
-
-                animal.GenderType = (GenderType)cmbGender.SelectedItem;
-
-                UpdateResultBox(animal);
+                lbx.Items.AddRange(infoStrings);
             }
         }
 
-        private void UpdateResultBox(Animal animal)
+        private void btnDelete_Click(object sender, EventArgs e)
         {
-            lstInfo.Items.Clear();
-            string fullInfo = animal.ToString();
-            string[] lines = fullInfo.Split(';');
+            int selectedIndex = lbx.SelectedIndex;
 
-            foreach (string line in lines)
+            if (selectedIndex >= 0)
             {
-                if (!string.IsNullOrWhiteSpace(line))
-                    lstInfo.Items.Add(line.Trim());
+                animalManager.DeleteAt(selectedIndex);
+
+                UpdateGUI();
             }
-        }
-
-        private void lbxCategory_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-            lbxSpecies.Items.Clear();
-
-            if (lbxCategory.SelectedItem == null) return;
-            CategoryType selectedCategory = (CategoryType)lbxCategory.SelectedItem;
-
-            switch (selectedCategory)
+            else
             {
-                case CategoryType.Mammal:
-                    lbxSpecies.Items.Add("Dog");
-                    lbxSpecies.Items.Add("Cat");
-                    break;
-                case CategoryType.Reptile:
-                    lbxSpecies.Items.Add("Turtle");
-                    lbxSpecies.Items.Add("Lizard");
-                    break;
+                MessageBox.Show("Please select an animal from the list to delete.", "Error");
             }
-        }
-
-        private void lbxSpecies_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (lbxSpecies.SelectedItem == null) return;
-
-            string species = lbxSpecies.SelectedItem.ToString();
         }
     }
 }

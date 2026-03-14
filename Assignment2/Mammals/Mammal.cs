@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Assignment2.AnimalGen;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assignment1
+namespace Assignment2 
 {
     public abstract class Mammal : Animal
     {
@@ -12,20 +13,14 @@ namespace Assignment1
 
         public int NumOfTeeth
         {
-            get => default;
-            set
-            {
-                numOfTeeth = value;
-            }
+            get { return numOfTeeth; }
+            set { numOfTeeth = value; }
         }
 
         public double TailLength
         {
-            get => default;
-            set
-            {
-                tailLength = value;
-            }
+            get { return tailLength; } 
+            set { tailLength = value; }
         }
 
         public override string ToString()

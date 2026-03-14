@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assignment1
+namespace Assignment2
 {
     public enum FurType
     {

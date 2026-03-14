@@ -1,87 +1,33 @@
-﻿using System;
+﻿using Assignment1;
+using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.Security.Permissions;
 using System.Text;
-using System.Xml.Linq;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace Assignment1
+namespace Assignment2
 {
-    public abstract class Animal
+    public abstract class Animal : IAnimal
     {
-        private int age;
-        private CategoryType category;
-        private string name;
-        private GenderType gender;
-        private int id;
-        private decimal weight;
-        private static int idCounter = 100;
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public double Age { get; set; }
+        public double Weight { get; set; }
+        public GenderType Gender { get; set; }
 
-        public Animal()
+        protected int sleepTime = 0;
+
+        public virtual void SetSleepTime()
         {
-            id = idCounter++;
-            name = string.Empty;
-            gender = GenderType.Unknown;
+            sleepTime = 0;
         }
 
+        public abstract int GetAverageLifeSpan();
 
-        public int Age
+        public virtual string ToStringSummary()
         {
-            get => age;
-            set
-            {
-                age = value;
-            }
-        }
-
-        public CategoryType CategoryType
-        {
-            get => category;
-            set
-            {
-                category = value;
-            }
-        }
-
-        public GenderType GenderType
-        {
-            get => gender;
-            set
-            {
-                gender = value;
-            }
-        }
-
-        public int Id
-        {
-            get => id;
-            set
-            {
-                id = value;
-            }
-        }
-
-        public string Name
-        {
-            get => name;
-            set
-            {
-                name = value;
-            }
-        }
-
-        public decimal Weight
-        {
-            get => weight;
-            set
-            {
-                weight = value;
-            }
-        }
-
-        public override string ToString()
-        {
-            return $"ID: {Id};Name: {Name};Age: {Age};Gender: {GenderType};Weight: {Weight}";
+            string name = Name.Substring(0, Math.Min(12, Name.Length));
+            string strOut = $"{Id,-8} {name,-12} {Age,6:f1} {Weight,6:f1} {Gender.ToString()}";
+            return strOut;
         }
     }
 }

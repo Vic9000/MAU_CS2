@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assignment1
+namespace Assignment2
 {
     public class Dog : Mammal
     {
         private string breed;
-
 
         public string Breed
         {
@@ -17,6 +16,21 @@ namespace Assignment1
             {
                 breed = value;
             }
+        }
+
+        public override int GetAverageLifeSpan()
+        {
+            return 13; // An average lifespan for a dog
+        }
+
+        public override void SetSleepTime()
+        {
+            sleepTime = 12; // Dogs sleep about 12-14 hours a day
+        }
+
+        public override string ToStringSummary()
+        {
+            return base.ToStringSummary() + $"   Dog, Breed: {Breed}";
         }
 
         public override string ToString()
