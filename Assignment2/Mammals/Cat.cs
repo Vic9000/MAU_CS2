@@ -18,12 +18,12 @@ namespace Assignment2
 
         public override int GetAverageLifeSpan()
         {
-            return 15; // An average lifespan for an indoor cat
+            return 15;
         }
 
         public override string ToStringSummary()
         {
-            return base.ToStringSummary() + $"   Cat, Fur: {FurType.ToString()}";
+            return base.ToStringSummary() + $"{FurType.ToString()}";
         }
 
         public override string ToString()

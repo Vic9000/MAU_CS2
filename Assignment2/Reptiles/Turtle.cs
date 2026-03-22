@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assignment1
+namespace Assignment2
 {
     public class Turtle : Reptile
     {
@@ -16,6 +16,11 @@ namespace Assignment1
                 shellWidth = value;
             }
         }
+        public override int GetAverageLifeSpan()
+        {
+            return 100;
+        }
+
         public override string ToString()
         {
             return $"{base.ToString()};Shell Width: {ShellWidth}";

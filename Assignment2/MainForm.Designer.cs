@@ -42,16 +42,18 @@
             lblName = new Label();
             btnAdd = new Button();
             lbxInfo = new ListBox();
-            lbx = new ListBox();
+            lbxAnimals = new ListBox();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
-            lbxInfo2 = new ListBox();
             btnDelete = new Button();
             btnChange = new Button();
+            lbxInfo2 = new ListBox();
+            lblInfo1 = new Label();
+            lblInfo2 = new Label();
             grpCreate.SuspendLayout();
             grpInput.SuspendLayout();
             SuspendLayout();
@@ -74,7 +76,6 @@
             lbxSpecies.Name = "lbxSpecies";
             lbxSpecies.Size = new Size(120, 154);
             lbxSpecies.TabIndex = 2;
-            lbxSpecies.SelectedIndexChanged += lbxSpecies_SelectedIndexChanged;
             // 
             // lbxCategory
             // 
@@ -83,7 +84,7 @@
             lbxCategory.Name = "lbxCategory";
             lbxCategory.Size = new Size(120, 154);
             lbxCategory.TabIndex = 1;
-            lbxCategory.SelectedIndexChanged += lbxCategory_SelectedIndexChanged_1;
+            lbxCategory.SelectedIndexChanged += lbxCategory_SelectedIndexChanged;
             // 
             // grpInput
             // 
@@ -184,23 +185,23 @@
             // lbxInfo
             // 
             lbxInfo.FormattingEnabled = true;
-            lbxInfo.Location = new Point(467, 216);
+            lbxInfo.Location = new Point(391, 231);
             lbxInfo.Name = "lbxInfo";
-            lbxInfo.Size = new Size(157, 199);
+            lbxInfo.Size = new Size(157, 184);
             lbxInfo.TabIndex = 5;
             // 
-            // lbx
+            // lbxAnimals
             // 
-            lbx.FormattingEnabled = true;
-            lbx.Location = new Point(12, 231);
-            lbx.Name = "lbx";
-            lbx.Size = new Size(449, 184);
-            lbx.TabIndex = 6;
+            lbxAnimals.FormattingEnabled = true;
+            lbxAnimals.Location = new Point(12, 231);
+            lbxAnimals.Name = "lbxAnimals";
+            lbxAnimals.Size = new Size(373, 184);
+            lbxAnimals.TabIndex = 6;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(18, 213);
+            label4.Location = new Point(47, 213);
             label4.Name = "label4";
             label4.Size = new Size(46, 15);
             label4.TabIndex = 7;
@@ -209,7 +210,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(90, 213);
+            label5.Location = new Point(12, 213);
             label5.Name = "label5";
             label5.Size = new Size(18, 15);
             label5.TabIndex = 8;
@@ -218,7 +219,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(144, 213);
+            label6.Location = new Point(101, 213);
             label6.Name = "label6";
             label6.Size = new Size(39, 15);
             label6.TabIndex = 9;
@@ -227,7 +228,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(320, 213);
+            label7.Location = new Point(255, 213);
             label7.Name = "label7";
             label7.Size = new Size(28, 15);
             label7.TabIndex = 10;
@@ -236,7 +237,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(354, 213);
+            label8.Location = new Point(289, 213);
             label8.Name = "label8";
             label8.Size = new Size(45, 15);
             label8.TabIndex = 11;
@@ -245,23 +246,15 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(405, 213);
+            label9.Location = new Point(340, 213);
             label9.Name = "label9";
             label9.Size = new Size(45, 15);
             label9.TabIndex = 12;
             label9.Text = "Gender";
             // 
-            // lbxInfo2
-            // 
-            lbxInfo2.FormattingEnabled = true;
-            lbxInfo2.Location = new Point(630, 216);
-            lbxInfo2.Name = "lbxInfo2";
-            lbxInfo2.Size = new Size(157, 199);
-            lbxInfo2.TabIndex = 13;
-            // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(255, 421);
+            btnDelete.Location = new Point(212, 421);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(111, 34);
             btnDelete.TabIndex = 15;
@@ -270,28 +263,56 @@
             // 
             // btnChange
             // 
-            btnChange.Location = new Point(101, 421);
+            btnChange.Location = new Point(66, 421);
             btnChange.Name = "btnChange";
             btnChange.Size = new Size(111, 34);
             btnChange.TabIndex = 16;
             btnChange.Text = "Change";
             btnChange.UseVisualStyleBackColor = true;
             // 
+            // lbxInfo2
+            // 
+            lbxInfo2.FormattingEnabled = true;
+            lbxInfo2.Location = new Point(554, 231);
+            lbxInfo2.Name = "lbxInfo2";
+            lbxInfo2.Size = new Size(157, 184);
+            lbxInfo2.TabIndex = 17;
+            // 
+            // lblInfo1
+            // 
+            lblInfo1.AutoSize = true;
+            lblInfo1.Location = new Point(391, 213);
+            lblInfo1.Name = "lblInfo1";
+            lblInfo1.Size = new Size(69, 15);
+            lblInfo1.TabIndex = 18;
+            lblInfo1.Text = "Animal Info";
+            // 
+            // lblInfo2
+            // 
+            lblInfo2.AutoSize = true;
+            lblInfo2.Location = new Point(554, 213);
+            lblInfo2.Name = "lblInfo2";
+            lblInfo2.Size = new Size(128, 15);
+            lblInfo2.TabIndex = 19;
+            lblInfo2.Text = "Additional Information";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(799, 460);
+            ClientSize = new Size(723, 460);
+            Controls.Add(lblInfo2);
+            Controls.Add(lblInfo1);
+            Controls.Add(lbxInfo2);
             Controls.Add(btnChange);
             Controls.Add(btnDelete);
-            Controls.Add(lbxInfo2);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(lbx);
+            Controls.Add(lbxAnimals);
             Controls.Add(lbxInfo);
             Controls.Add(btnAdd);
             Controls.Add(grpInput);
@@ -320,15 +341,17 @@
         private Label label2;
         private Button btnAdd;
         private ListBox lbxInfo;
-        private ListBox lbx;
+        private ListBox lbxAnimals;
         private Label label4;
         private Label label5;
         private Label label6;
         private Label label7;
         private Label label8;
         private Label label9;
-        private ListBox lbxInfo2;
         private Button btnDelete;
         private Button btnChange;
+        private ListBox lbxInfo2;
+        private Label lblInfo1;
+        private Label lblInfo2;
     }
 }

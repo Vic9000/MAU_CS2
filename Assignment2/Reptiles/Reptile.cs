@@ -3,28 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assignment1
+namespace Assignment2
 {
-    public class Reptile : Animal
+    public abstract class Reptile : Animal
     {
         private double bodyLength;
         private bool livesInWater;
         public double BodyLength
         {
-            get => bodyLength;
-            set
-            {
-                bodyLength = value;
-            }
+            get { return bodyLength; }
+            set { bodyLength = value; }
         }
 
         public bool LivesInWater
         {
-            get => livesInWater;
-            set
-            {
-                livesInWater = value;
-            }
+            get { return livesInWater; }
+            set { livesInWater = value; }
         }
 
         public override string ToString()

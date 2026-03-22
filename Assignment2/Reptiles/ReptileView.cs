@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Assignment1
+namespace Assignment2
 {
     public partial class ReptileView : Form
     {

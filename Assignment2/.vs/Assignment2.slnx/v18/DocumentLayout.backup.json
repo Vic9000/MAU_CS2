@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mammals\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mammals\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\animalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:animalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mammals\\mammalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -82,7 +82,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Mammal.cs",
               "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Mammal.cs",
               "RelativeDocumentMoniker": "Mammals\\Mammal.cs",
@@ -133,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AnimalManager.cs",
               "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\AnimalManager.cs",
               "RelativeDocumentMoniker": "AnimalManager.cs",
@@ -146,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Dog.cs",
               "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Dog.cs",
               "RelativeDocumentMoniker": "Mammals\\Dog.cs",
@@ -159,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Cat.cs",
               "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Cat.cs",
               "RelativeDocumentMoniker": "Mammals\\Cat.cs",
@@ -308,7 +308,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",

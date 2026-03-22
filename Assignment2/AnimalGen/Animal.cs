@@ -25,8 +25,14 @@ namespace Assignment2
 
         public virtual string ToStringSummary()
         {
-            string name = Name.Substring(0, Math.Min(12, Name.Length));
-            string strOut = $"{Id,-8} {name,-12} {Age,6:f1} {Weight,6:f1} {Gender.ToString()}";
+            // Keep the name length capped at 12 characters to prevent messy columns
+            string name = string.IsNullOrEmpty(Name) ? "Unknown" : Name.Substring(0, Math.Min(12, Name.Length));
+
+            // Get the species dynamically based on the actual class type 
+            string species = this.GetType().Name;
+
+            string strOut = $"{Id,-8} {species,-10} {name,-12} {Age,5:f1} {Weight,6:f1}   {Gender}";
+
             return strOut;
         }
     }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Assignment1
+namespace Assignment2
 {
     public class Lizard : Reptile
     {
@@ -16,6 +16,12 @@ namespace Assignment1
                 tailLength = value;
             }
         }
+
+        public override int GetAverageLifeSpan()
+        {
+            return 10; 
+        }
+
         public override string ToString()
         {
             return $"{base.ToString()};Tail Length: {TailLength}";

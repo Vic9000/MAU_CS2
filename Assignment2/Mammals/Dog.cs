@@ -30,7 +30,7 @@ namespace Assignment2
 
         public override string ToStringSummary()
         {
-            return base.ToStringSummary() + $"   Dog, Breed: {Breed}";
+            return base.ToStringSummary() + $"{Breed}";
         }
 
         public override string ToString()

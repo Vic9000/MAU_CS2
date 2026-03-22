@@ -33,22 +33,15 @@ namespace Assignment2
         /// <returns>An array of formatted strings.</returns>
         public string[] ToStringSummaryAllAnimals()
         {
-            // Create an array exactly the size of our current list
-            string[] summaryList = new string[Count];
+            string[] infoStrings = new string[Count];
 
             for (int i = 0; i < Count; i++)
             {
-                // Retrieve the animal using the GetAt() method we inherited from ListManager
                 Animal currentAnimal = GetAt(i);
-
-                if (currentAnimal != null)
-                {
-                    // Call the virtual ToStringSummary() method that we set up in the Animal class
-                    summaryList[i] = currentAnimal.ToStringSummary();
-                }
+                infoStrings[i] = currentAnimal.ToStringSummary();
             }
 
-            return summaryList;
+            return infoStrings;
         }
     }
 }
