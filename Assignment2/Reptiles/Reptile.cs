@@ -24,7 +24,7 @@ namespace Assignment2
         public override string ToString()
         {
             string waterInfo = LivesInWater ? "Yes" : "No";
-            return $"{base.ToString()};Body Length: {BodyLength};Lives in Water: {waterInfo}";
+            return $"Body Length: {BodyLength}, Lives in Water: {waterInfo}";
         }
     }
 }

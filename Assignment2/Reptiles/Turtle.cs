@@ -23,7 +23,9 @@ namespace Assignment2
 
         public override string ToString()
         {
-            return $"{base.ToString()};Shell Width: {ShellWidth}";
+            string reptileInfo = base.ToString();
+
+            return $"{reptileInfo}, Shell Width: {ShellWidth}";
         }
     }
 }

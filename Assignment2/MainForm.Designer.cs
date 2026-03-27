@@ -184,104 +184,116 @@
             // 
             // lbxInfo
             // 
+            lbxInfo.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbxInfo.FormattingEnabled = true;
-            lbxInfo.Location = new Point(391, 231);
+            lbxInfo.Location = new Point(408, 231);
             lbxInfo.Name = "lbxInfo";
-            lbxInfo.Size = new Size(157, 184);
+            lbxInfo.Size = new Size(186, 186);
             lbxInfo.TabIndex = 5;
             // 
             // lbxAnimals
             // 
+            lbxAnimals.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbxAnimals.FormattingEnabled = true;
             lbxAnimals.Location = new Point(12, 231);
             lbxAnimals.Name = "lbxAnimals";
-            lbxAnimals.Size = new Size(373, 184);
+            lbxAnimals.Size = new Size(390, 186);
             lbxAnimals.TabIndex = 6;
+            lbxAnimals.SelectedIndexChanged += lbxAnimals_SelectedIndexChanged;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(47, 213);
+            label4.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(51, 213);
             label4.Name = "label4";
-            label4.Size = new Size(46, 15);
+            label4.Size = new Size(56, 14);
             label4.TabIndex = 7;
             label4.Text = "Species";
             // 
             // label5
             // 
             label5.AutoSize = true;
+            label5.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.Location = new Point(12, 213);
             label5.Name = "label5";
-            label5.Size = new Size(18, 15);
+            label5.Size = new Size(21, 14);
             label5.TabIndex = 8;
             label5.Text = "ID";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(101, 213);
+            label6.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(117, 213);
             label6.Name = "label6";
-            label6.Size = new Size(39, 15);
+            label6.Size = new Size(35, 14);
             label6.TabIndex = 9;
             label6.Text = "Name";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(255, 213);
+            label7.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(223, 213);
             label7.Name = "label7";
-            label7.Size = new Size(28, 15);
+            label7.Size = new Size(28, 14);
             label7.TabIndex = 10;
             label7.Text = "Age";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(289, 213);
+            label8.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(280, 213);
             label8.Name = "label8";
-            label8.Size = new Size(45, 15);
+            label8.Size = new Size(49, 14);
             label8.TabIndex = 11;
             label8.Text = "Weight";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(340, 213);
+            label9.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label9.Location = new Point(336, 213);
             label9.Name = "label9";
-            label9.Size = new Size(45, 15);
+            label9.Size = new Size(49, 14);
             label9.TabIndex = 12;
             label9.Text = "Gender";
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(212, 421);
+            btnDelete.Location = new Point(182, 421);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(111, 34);
             btnDelete.TabIndex = 15;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnChange
             // 
-            btnChange.Location = new Point(66, 421);
+            btnChange.Location = new Point(47, 421);
             btnChange.Name = "btnChange";
             btnChange.Size = new Size(111, 34);
             btnChange.TabIndex = 16;
             btnChange.Text = "Change";
             btnChange.UseVisualStyleBackColor = true;
+            btnChange.Click += btnChange_Click;
             // 
             // lbxInfo2
             // 
+            lbxInfo2.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbxInfo2.FormattingEnabled = true;
-            lbxInfo2.Location = new Point(554, 231);
+            lbxInfo2.Location = new Point(600, 231);
             lbxInfo2.Name = "lbxInfo2";
-            lbxInfo2.Size = new Size(157, 184);
+            lbxInfo2.Size = new Size(175, 186);
             lbxInfo2.TabIndex = 17;
             // 
             // lblInfo1
             // 
             lblInfo1.AutoSize = true;
-            lblInfo1.Location = new Point(391, 213);
+            lblInfo1.Location = new Point(408, 212);
             lblInfo1.Name = "lblInfo1";
             lblInfo1.Size = new Size(69, 15);
             lblInfo1.TabIndex = 18;
@@ -290,7 +302,7 @@
             // lblInfo2
             // 
             lblInfo2.AutoSize = true;
-            lblInfo2.Location = new Point(554, 213);
+            lblInfo2.Location = new Point(600, 212);
             lblInfo2.Name = "lblInfo2";
             lblInfo2.Size = new Size(128, 15);
             lblInfo2.TabIndex = 19;
@@ -300,7 +312,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(723, 460);
+            ClientSize = new Size(787, 460);
             Controls.Add(lblInfo2);
             Controls.Add(lblInfo1);
             Controls.Add(lbxInfo2);

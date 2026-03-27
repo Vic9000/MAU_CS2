@@ -25,7 +25,7 @@ namespace Assignment2
 
         public override string ToString()
         {
-            return $"{base.ToString()};Teeth: {NumOfTeeth};Tail: {TailLength}";
+            return $"Number of Teeth: {numOfTeeth}";
         }
     }
 }

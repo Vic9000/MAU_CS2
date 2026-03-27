@@ -26,7 +26,7 @@ namespace Assignment1
 
         private void UpdateGUI()
         {
-            lbxAnimals.Items.Clear(); 
+            lbxAnimals.Items.Clear();
 
             string[] infoStrings = animalManager.ToStringSummaryAllAnimals();
 
@@ -78,7 +78,7 @@ namespace Assignment1
                 }
                 else
                 {
-                    return; 
+                    return;
                 }
             }
             else if (selectedSpecies == "Lizard" || selectedSpecies == "Turtle")
@@ -92,7 +92,7 @@ namespace Assignment1
                 }
                 else
                 {
-                    return; 
+                    return;
                 }
             }
 
@@ -116,7 +116,6 @@ namespace Assignment1
 
         private void btnChange_Click(object sender, EventArgs e)
         {
-            // Now checking the newly named lbxAnimals
             int selectedIndex = lbxAnimals.SelectedIndex;
 
             if (selectedIndex >= 0)
@@ -131,6 +130,7 @@ namespace Assignment1
 
                 if (animalToEdit != null)
                 {
+                    // Update the animal's data
                     animalToEdit.Name = txtName.Text;
                     animalToEdit.Age = age;
                     animalToEdit.Weight = weight;
@@ -138,7 +138,7 @@ namespace Assignment1
 
                     UpdateGUI();
 
-                    lbxAnimals_SelectedIndexChanged(sender, e);
+                    lbxAnimals.SelectedIndex = selectedIndex;
                 }
             }
             else
@@ -167,7 +167,14 @@ namespace Assignment1
                     lbxInfo.Items.Add($"Age: {selectedAnimal.Age}");
                     lbxInfo.Items.Add($"Gender: {selectedAnimal.Gender}");
 
-                    lbxInfo2.Items.Add(selectedAnimal.ToString());
+                    string fullInfo = selectedAnimal.ToString();
+
+                    string[] infoLines = fullInfo.Split(new[] { ',', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+                    foreach (string line in infoLines)
+                    {
+                        lbxInfo2.Items.Add(line.Trim());
+                    }
 
                     txtName.Text = selectedAnimal.Name;
                     txtAge.Text = selectedAnimal.Age.ToString();

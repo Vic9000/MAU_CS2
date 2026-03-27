@@ -28,14 +28,12 @@ namespace Assignment2
             sleepTime = 12; // Dogs sleep about 12-14 hours a day
         }
 
-        public override string ToStringSummary()
-        {
-            return base.ToStringSummary() + $"{Breed}";
-        }
 
         public override string ToString()
         {
-            return $"{base.ToString()};Breed: {Breed}";
+            string mammalInfo = base.ToString();
+
+            return $"{mammalInfo}, Breed: {Breed}";
         }
     }
 }

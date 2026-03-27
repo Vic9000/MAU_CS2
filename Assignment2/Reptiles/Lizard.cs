@@ -24,7 +24,9 @@ namespace Assignment2
 
         public override string ToString()
         {
-            return $"{base.ToString()};Tail Length: {TailLength}";
+            string reptileInfo = base.ToString();
+
+            return $"{reptileInfo}, Tail Length: {TailLength}";
         }
     }
 }

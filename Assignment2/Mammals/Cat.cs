@@ -21,14 +21,11 @@ namespace Assignment2
             return 15;
         }
 
-        public override string ToStringSummary()
-        {
-            return base.ToStringSummary() + $"{FurType.ToString()}";
-        }
-
         public override string ToString()
         {
-            return $"{base.ToString()};Fur Type: {FurType}";
+            string mammalInfo = base.ToString();
+
+            return $"{mammalInfo}, Fur Type: {FurType}";
         }
     }
 }

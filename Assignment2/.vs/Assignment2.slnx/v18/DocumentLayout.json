@@ -1,74 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\",
+  "WorkspaceRootPath": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mammals\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mammals\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mammals\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mammals\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mammals\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mammals\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\animalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:animalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mammals\\mammalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mammals\\mammalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\animalgen\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:animalgen\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mammals\\mammalview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mammals\\mammalview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\reptiles\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:reptiles\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\reptiles\\turtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\reptiles\\turtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:reptiles\\turtle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\reptiles\\reptileview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:reptiles\\reptileview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\reptiles\\reptile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\reptiles\\reptile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:reptiles\\reptile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\reptiles\\reptileview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:reptiles\\reptileview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\reptiles\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:reptiles\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\reptiles\\reptileview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:reptiles\\reptileview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\mammals\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mammals\\mammal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment2\\mammals\\furtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mammals\\furtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\animalgen\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:animalgen\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:listmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\animalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:animalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,245 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAqwNUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T16:56:18.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Mammal.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Mammal.cs",
-              "RelativeDocumentMoniker": "Mammals\\Mammal.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Mammal.cs",
-              "RelativeToolTip": "Mammals\\Mammal.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Title": "Reptile.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\Reptiles\\Reptile.cs",
+              "RelativeDocumentMoniker": "Reptiles\\Reptile.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\Reptiles\\Reptile.cs",
+              "RelativeToolTip": "Reptiles\\Reptile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T16:41:10.653Z",
+              "WhenOpened": "2026-03-27T09:41:38.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MammalView.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\MammalView.cs",
-              "RelativeDocumentMoniker": "Mammals\\MammalView.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\MammalView.cs [Design]",
-              "RelativeToolTip": "Mammals\\MammalView.cs [Design]",
+              "Title": "Mammal.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\Mammals\\Mammal.cs",
+              "RelativeDocumentMoniker": "Mammals\\Mammal.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\Mammals\\Mammal.cs",
+              "RelativeToolTip": "Mammals\\Mammal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T07:05:40.116Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MammalView.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\MammalView.Designer.cs",
-              "RelativeDocumentMoniker": "Mammals\\MammalView.Designer.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\MammalView.Designer.cs",
-              "RelativeToolTip": "Mammals\\MammalView.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T07:05:26.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AnimalManager.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\AnimalManager.cs",
-              "RelativeDocumentMoniker": "AnimalManager.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\AnimalManager.cs",
-              "RelativeToolTip": "AnimalManager.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T16:38:31.391Z",
+              "WhenOpened": "2026-03-27T09:41:04.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Dog.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Dog.cs",
-              "RelativeDocumentMoniker": "Mammals\\Dog.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Dog.cs",
-              "RelativeToolTip": "Mammals\\Dog.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAA3AAAAAAAAAA==",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T16:45:46.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T08:39:32.949Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cat.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Cat.cs",
-              "RelativeDocumentMoniker": "Mammals\\Cat.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\Cat.cs",
-              "RelativeToolTip": "Mammals\\Cat.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBkAAABEAAAAAAAAAA==",
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAawBkBAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T16:46:07.234Z",
+              "WhenOpened": "2026-03-27T08:38:30.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Reptile.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\Reptile.cs",
-              "RelativeDocumentMoniker": "Reptiles\\Reptile.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\Reptile.cs",
-              "RelativeToolTip": "Reptiles\\Reptile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAIwIsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T14:50:24.935Z",
+              "WhenOpened": "2026-03-27T08:38:18.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Turtle.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\Reptiles\\Turtle.cs",
+              "RelativeDocumentMoniker": "Reptiles\\Turtle.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\Reptiles\\Turtle.cs",
+              "RelativeToolTip": "Reptiles\\Turtle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T09:43:10.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lizard.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\Reptiles\\Lizard.cs",
+              "RelativeDocumentMoniker": "Reptiles\\Lizard.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\Reptiles\\Lizard.cs",
+              "RelativeToolTip": "Reptiles\\Lizard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T09:41:47.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\AnimalGen\\Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\AnimalGen\\Animal.cs",
               "RelativeDocumentMoniker": "AnimalGen\\Animal.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\AnimalGen\\Animal.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\AnimalGen\\Animal.cs",
               "RelativeToolTip": "AnimalGen\\Animal.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowB4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T16:42:53.371Z",
+              "WhenOpened": "2026-03-27T08:21:03.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Turtle.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\Turtle.cs",
-              "RelativeDocumentMoniker": "Reptiles\\Turtle.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\Turtle.cs",
-              "RelativeToolTip": "Reptiles\\Turtle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\ListManager.cs",
+              "RelativeDocumentMoniker": "ListManager.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\ListManager.cs",
+              "RelativeToolTip": "ListManager.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T15:28:49.458Z",
+              "WhenOpened": "2026-03-27T08:19:56.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\MainForm.Designer.cs",
-              "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAFUAAAAlAAAAAAAAAA==",
+              "Title": "AnimalManager.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\AnimalManager.cs",
+              "RelativeDocumentMoniker": "AnimalManager.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\AnimalManager.cs",
+              "RelativeToolTip": "AnimalManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T16:56:10.111Z",
+              "WhenOpened": "2026-03-27T08:19:27.065Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReptileView.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\ReptileView.cs",
-              "RelativeDocumentMoniker": "Reptiles\\ReptileView.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\ReptileView.cs",
-              "RelativeToolTip": "Reptiles\\ReptileView.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADgvykAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T15:28:00.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Lizard.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\Lizard.cs",
-              "RelativeDocumentMoniker": "Reptiles\\Lizard.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\Lizard.cs",
-              "RelativeToolTip": "Reptiles\\Lizard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T15:28:33.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ReptileView.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\ReptileView.Designer.cs",
-              "RelativeDocumentMoniker": "Reptiles\\ReptileView.Designer.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\ReptileView.Designer.cs",
-              "RelativeToolTip": "Reptiles\\ReptileView.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T14:57:59.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ReptileView.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\ReptileView.cs",
-              "RelativeDocumentMoniker": "Reptiles\\ReptileView.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Reptiles\\ReptileView.cs [Design]",
-              "RelativeToolTip": "Reptiles\\ReptileView.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T14:57:48Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FurType.cs",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\FurType.cs",
-              "RelativeDocumentMoniker": "Mammals\\FurType.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\Mammals\\FurType.cs",
-              "RelativeToolTip": "Mammals\\FurType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T16:48:34.483Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "fce8de0c-42bf-4d35-879f-53f51f85e80e",
-        "Display": 1,
-        "X": 1037,
-        "Y": 163,
-        "Width": 885,
-        "Height": 600,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment2\\MainForm.cs [Design]",
-              "RelativeToolTip": "MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T15:58:22.931Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
