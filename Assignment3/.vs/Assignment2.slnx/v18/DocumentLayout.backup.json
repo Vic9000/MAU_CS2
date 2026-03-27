@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0B6D470B-9E06-FFF2-84B9-3D0045B3CCCD}|Assignment2.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -62,7 +62,8 @@
               "RelativeToolTip": "Reptiles\\Reptile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:41:38.386Z"
+              "WhenOpened": "2026-03-27T09:41:38.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,7 +75,8 @@
               "RelativeToolTip": "Mammals\\Mammal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:41:04.183Z"
+              "WhenOpened": "2026-03-27T09:41:04.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -98,7 +100,8 @@
               "RelativeToolTip": "MainForm.Designer.cs",
               "ViewState": "AgIAAPgAAAAAAAAAAAAawBkBAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:38:30.643Z"
+              "WhenOpened": "2026-03-27T08:38:30.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,7 +126,8 @@
               "RelativeToolTip": "Reptiles\\Turtle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:43:10.819Z"
+              "WhenOpened": "2026-03-27T09:43:10.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -135,7 +139,8 @@
               "RelativeToolTip": "Reptiles\\Lizard.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:41:47.046Z"
+              "WhenOpened": "2026-03-27T09:41:47.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,7 +152,8 @@
               "RelativeToolTip": "AnimalGen\\Animal.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAowB4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:21:03.114Z"
+              "WhenOpened": "2026-03-27T08:21:03.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -159,7 +165,8 @@
               "RelativeToolTip": "ListManager.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:19:56.207Z"
+              "WhenOpened": "2026-03-27T08:19:56.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -171,7 +178,8 @@
               "RelativeToolTip": "AnimalManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:19:27.065Z"
+              "WhenOpened": "2026-03-27T08:19:27.065Z",
+              "EditorCaption": ""
             }
           ]
         }
