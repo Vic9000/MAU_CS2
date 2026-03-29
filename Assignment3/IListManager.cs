@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
+using System.Text.Json;
 
 namespace Assignment3
 {
@@ -68,5 +71,28 @@ namespace Assignment3
         /// <returns>A List of strings where each element represents an item in the list.</returns>
         List<string> ToStringList();
 
+        /// <summary>
+        /// Serializes the current list of items and saves them to a JSON file.
+        /// </summary>
+        /// <param name="fileName">The file path where the JSON data will be saved.</param>
+        void SaveToJson(string fileName);
+
+        /// <summary>
+        /// Reads a JSON file, deserializes the contents, and replaces the current list with the loaded items.
+        /// </summary>
+        /// <param name="fileName">The file path of the JSON data to load.</param>
+        void LoadFromJson(string fileName);
+
+        /// <summary>
+        /// Saves the string representation of each item in the list to a plain text file, row by row.
+        /// </summary>
+        /// <param name="fileName">The file path where the text data will be saved.</param>
+        void SaveToText(string fileName);
+
+        /// <summary>
+        /// Reads a plain text file line by line and reconstructs the list of items.
+        /// </summary>
+        /// <param name="fileName">The file path of the text data to load.</param>
+        void LoadFromText(string fileName);
     }
 }

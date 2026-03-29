@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Assignment3
 {
-    public abstract class Animal : IAnimal
+    public class Animal : IAnimal
     {
         public string Id { get; set; }
         public string Name { get; set; }
@@ -21,7 +21,10 @@ namespace Assignment3
             sleepTime = 0;
         }
 
-        public abstract int GetAverageLifeSpan();
+        public virtual int GetAverageLifeSpan()
+        {
+            return 10;
+        }
 
         public string ToStringSummary()
         {

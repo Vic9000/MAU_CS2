@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json;
+using System.IO;
 
 namespace Assignment3
 {
@@ -123,6 +125,51 @@ namespace Assignment3
                 strList.Add(item?.ToString());
             }
             return strList;
+        }
+
+        public void SaveToJson(string fileName)
+        {
+            using (StreamWriter writer = new StreamWriter(fileName))
+            {
+                JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
+                // NOTE: If you still get an error here, change m_list to whatever you named your List<T> at the top of this file!
+                string jsonString = JsonSerializer.Serialize(m_list, options);
+                writer.Write(jsonString);
+            }
+        }
+
+        public void LoadFromJson(string fileName)
+        {
+            using (StreamReader reader = new StreamReader(fileName))
+            {
+                string jsonString = reader.ReadToEnd();
+                m_list = JsonSerializer.Deserialize<List<T>>(jsonString);
+            }
+        }
+
+        public virtual void SaveToText(string fileName)
+        {
+            using (StreamWriter writer = new StreamWriter(fileName))
+            {
+                foreach (T item in m_list)
+                {
+                    writer.WriteLine(item.ToString());
+                }
+            }
+        }
+
+        public virtual void LoadFromText(string fileName)
+        {
+            m_list.Clear();
+
+            using (StreamReader reader = new StreamReader(fileName))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    // To do: Add parsing logic to reconstruct objects from the text line
+                }
+            }
         }
     }
 }
