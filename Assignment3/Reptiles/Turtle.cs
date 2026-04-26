@@ -27,5 +27,11 @@ namespace Assignment3
 
             return $"{reptileInfo}, Shell Width: {ShellWidth}";
         }
+
+        public override string ToTextString()
+        {
+            string baseData = base.ToTextString();
+            return $"{baseData},{shellWidth}";
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace Assignment3
     public class ListManager<T> : IListManager<T>
     {
         // The internal collection used to store the items
-        private List<T> m_list;
+        protected List<T> m_list;
 
         /// <summary>
         /// Constructor initializes the internal list.
@@ -153,7 +153,15 @@ namespace Assignment3
             {
                 foreach (T item in m_list)
                 {
-                    writer.WriteLine(item.ToString());
+                    // If the item is an animal, we want the comma-separated version
+                    if (item is Animal animal)
+                    {
+                        writer.WriteLine(animal.ToTextString());
+                    }
+                    else
+                    {
+                        writer.WriteLine(item.ToString());
+                    }
                 }
             }
         }

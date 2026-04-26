@@ -27,5 +27,11 @@ namespace Assignment3
 
             return $"{mammalInfo}, Fur Type: {FurType}";
         }
+
+        public override string ToTextString()
+        {
+            string baseData = base.ToTextString();
+            return $"{baseData},{furType}";
+        }
     }
 }

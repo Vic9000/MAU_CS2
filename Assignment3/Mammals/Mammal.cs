@@ -25,7 +25,13 @@ namespace Assignment3
 
         public override string ToString()
         {
-            return $"Number of Teeth: {numOfTeeth}";
+            return $"Number of Teeth: {numOfTeeth}, Tail Length: {tailLength}";
+        }
+
+        public override string ToTextString()
+        {
+            string baseData = base.ToTextString();
+            return $"{baseData},{numOfTeeth},{tailLength}";
         }
     }
 }

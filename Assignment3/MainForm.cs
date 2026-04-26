@@ -1,4 +1,5 @@
 using Assignment3;
+using System.IO;
 
 namespace Assignment3
 {
@@ -6,6 +7,10 @@ namespace Assignment3
     {
         private AnimalManager animalManager = new AnimalManager();
         private Animal currAnimal = null;
+
+        // Tracks the current file being worked with
+        private string currentFileName = string.Empty;
+        private string currentFileType = string.Empty;
 
         public MainForm()
         {
@@ -21,17 +26,30 @@ namespace Assignment3
             txtWeight.Text = "";
             cmbGender.DataSource = Enum.GetValues(typeof(GenderType));
             lbxCategory.DataSource = Enum.GetValues(typeof(CategoryType));
+            cmbFilter.DataSource = Enum.GetValues(typeof(FilterViews));
+            txtFilterAge.Visible = false;
         }
 
         private void UpdateGUI()
         {
             lbxAnimals.Items.Clear();
+            lbxInfo.Items.Clear();
+            lbxInfo2.Items.Clear();
 
             string[] infoStrings = animalManager.ToStringSummaryAllAnimals();
 
             if (infoStrings != null)
             {
                 lbxAnimals.Items.AddRange(infoStrings);
+            }
+        }
+
+        private void UpdateFilterListBox(List<Animal> filteredAnimals)
+        {
+            lbxFilter.Items.Clear();
+            foreach (Animal a in filteredAnimals)
+            {
+                lbxFilter.Items.Add(a.ToStringSummary());
             }
         }
 
@@ -197,6 +215,7 @@ namespace Assignment3
             {
                 MessageBox.Show("Please select an animal from the list to delete.", "Error");
             }
+            UpdateGUI();
         }
 
         private void lbxCategory_SelectedIndexChanged(object sender, EventArgs e)
@@ -222,6 +241,154 @@ namespace Assignment3
             if (lbxSpecies.Items.Count > 0)
             {
                 lbxSpecies.SelectedIndex = 0;
+            }
+        }
+
+        private void SaveData()
+        {
+            try
+            {
+                if (currentFileType == "JSON")
+                {
+                    animalManager.SaveToJson(currentFileName);
+                }
+                else if (currentFileType == "Text")
+                {
+                    animalManager.SaveToText(currentFileName);
+                }
+
+                MessageBox.Show("Data saved successfully!", "Success");
+            }
+            catch (Exception ex) //
+            {
+                MessageBox.Show(ex.ToString(), "Error Saving File");
+            }
+        }
+
+        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Set up the dialog to show JSON and TXT files
+            saveFileDialog1.Filter = "JSON Files (*.json)|*.json|Text Files (*.txt)|*.txt";
+            saveFileDialog1.Title = "Save Animal Data";
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                // Remember the chosen file and figure out the type based on the extension
+                currentFileName = saveFileDialog1.FileName;
+                currentFileType = Path.GetExtension(currentFileName).ToLower() == ".json" ? "JSON" : "Text";
+
+                SaveData();
+            }
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // If we don't have a file yet, act like "Save As"
+            if (string.IsNullOrEmpty(currentFileName))
+            {
+                saveAsToolStripMenuItem_Click(sender, e);
+            }
+            else
+            {
+                SaveData();
+            }
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Filter = "JSON Files (*.json)|*.json|Text Files (*.txt)|*.txt";
+            openFileDialog1.Title = "Open Animal Data";
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                currentFileName = openFileDialog1.FileName;
+                currentFileType = Path.GetExtension(currentFileName).ToLower() == ".json" ? "JSON" : "Text";
+
+                try
+                {
+                    if (currentFileType == "JSON")
+                    {
+                        animalManager.LoadFromJson(currentFileName);
+                    }
+                    else if (currentFileType == "Text")
+                    {
+                        animalManager.LoadFromText(currentFileName);
+                    }
+
+                    UpdateGUI();
+                    MessageBox.Show("Data loaded successfully!", "Success");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString(), "Error Loading File");
+                }
+            }
+        }
+
+        private void cmbFilter_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmbFilter.SelectedItem == null) return;
+
+            FilterViews selectedView = (FilterViews)cmbFilter.SelectedItem;
+
+            if (selectedView == FilterViews.Age) 
+            {
+                txtFilterAge.Visible = true;
+                lbxFilter.Items.Clear(); 
+                return; 
+            }
+            else
+            {
+                txtFilterAge.Visible = false;
+                txtFilterAge.Text = "";
+            }
+
+            List<Animal> results = new List<Animal>();
+
+            switch (selectedView)
+            {
+                case FilterViews.None:
+                    for (int i = 0; i < animalManager.Count; i++)
+                    {
+                        results.Add(animalManager.GetAt(i));
+                    }
+                    break;
+
+                case FilterViews.Dogs:
+                    results = animalManager.GetAllDogs();
+                    break;
+
+                case FilterViews.Cats:
+                    results = animalManager.GetAllCats();
+                    break;
+
+                case FilterViews.Lizards:
+                    results = animalManager.GetAllLizards();
+                    break;
+
+                case FilterViews.Turtles:
+                    results = animalManager.GetAllTurtles();
+                    break;
+
+                case FilterViews.Sort:
+                    results = animalManager.SortAnimalsByName();
+                    break;
+            }
+
+            UpdateFilterListBox(results);
+        }
+
+        private void txtFilterAge_TextChanged(object sender, EventArgs e)
+        {
+            // Only attempt the LINQ query if a valid number was typed
+            if (double.TryParse(txtFilterAge.Text, out double ageLimit))
+            {
+                List<Animal> results = animalManager.GetAnimalsOlderThan(ageLimit);
+                UpdateFilterListBox(results);
+            }
+            else
+            {
+                lbxFilter.Items.Clear(); // Clear if empty or invalid text
             }
         }
     }

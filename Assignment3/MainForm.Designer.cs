@@ -60,10 +60,15 @@
             openToolStripMenuItem = new ToolStripMenuItem();
             saveToolStripMenuItem = new ToolStripMenuItem();
             saveAsToolStripMenuItem = new ToolStripMenuItem();
+            exitToolStripMenuItem = new ToolStripMenuItem();
+            helpToolStripMenuItem = new ToolStripMenuItem();
             openFileDialog1 = new OpenFileDialog();
             saveFileDialog1 = new SaveFileDialog();
-            helpToolStripMenuItem = new ToolStripMenuItem();
-            exitToolStripMenuItem = new ToolStripMenuItem();
+            lbxFilter = new ListBox();
+            label10 = new Label();
+            cmbFilter = new ComboBox();
+            label11 = new Label();
+            txtFilterAge = new TextBox();
             grpCreate.SuspendLayout();
             grpInput.SuspendLayout();
             menuStrip1.SuspendLayout();
@@ -338,30 +343,35 @@
             // newToolStripMenuItem
             // 
             newToolStripMenuItem.Name = "newToolStripMenuItem";
-            newToolStripMenuItem.Size = new Size(180, 22);
+            newToolStripMenuItem.Size = new Size(112, 22);
             newToolStripMenuItem.Text = "New";
             // 
             // openToolStripMenuItem
             // 
             openToolStripMenuItem.Name = "openToolStripMenuItem";
-            openToolStripMenuItem.Size = new Size(180, 22);
+            openToolStripMenuItem.Size = new Size(112, 22);
             openToolStripMenuItem.Text = "Open";
+            openToolStripMenuItem.Click += openToolStripMenuItem_Click;
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(180, 22);
+            saveToolStripMenuItem.Size = new Size(112, 22);
             saveToolStripMenuItem.Text = "Save";
+            saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // saveAsToolStripMenuItem
             // 
             saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            saveAsToolStripMenuItem.Size = new Size(180, 22);
+            saveAsToolStripMenuItem.Size = new Size(112, 22);
             saveAsToolStripMenuItem.Text = "Save as";
+            saveAsToolStripMenuItem.Click += saveAsToolStripMenuItem_Click;
             // 
-            // openFileDialog1
+            // exitToolStripMenuItem
             // 
-            openFileDialog1.FileName = "openFileDialog1";
+            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            exitToolStripMenuItem.Size = new Size(112, 22);
+            exitToolStripMenuItem.Text = "Exit";
             // 
             // helpToolStripMenuItem
             // 
@@ -369,17 +379,63 @@
             helpToolStripMenuItem.Size = new Size(44, 20);
             helpToolStripMenuItem.Text = "Help";
             // 
-            // exitToolStripMenuItem
+            // openFileDialog1
             // 
-            exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(180, 22);
-            exitToolStripMenuItem.Text = "Exit";
+            openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // lbxFilter
+            // 
+            lbxFilter.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbxFilter.FormattingEnabled = true;
+            lbxFilter.Location = new Point(600, 95);
+            lbxFilter.Name = "lbxFilter";
+            lbxFilter.Size = new Size(175, 116);
+            lbxFilter.TabIndex = 21;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(598, 30);
+            label10.Name = "label10";
+            label10.Size = new Size(0, 15);
+            label10.TabIndex = 22;
+            // 
+            // cmbFilter
+            // 
+            cmbFilter.FormattingEnabled = true;
+            cmbFilter.Location = new Point(600, 66);
+            cmbFilter.Name = "cmbFilter";
+            cmbFilter.Size = new Size(175, 23);
+            cmbFilter.TabIndex = 23;
+            cmbFilter.SelectedIndexChanged += cmbFilter_SelectedIndexChanged;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(598, 40);
+            label11.Name = "label11";
+            label11.Size = new Size(49, 15);
+            label11.TabIndex = 25;
+            label11.Text = "Filter by";
+            // 
+            // txtFilterAge
+            // 
+            txtFilterAge.Location = new Point(673, 37);
+            txtFilterAge.Name = "txtFilterAge";
+            txtFilterAge.Size = new Size(100, 23);
+            txtFilterAge.TabIndex = 26;
+            txtFilterAge.TextChanged += txtFilterAge_TextChanged;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(787, 485);
+            Controls.Add(txtFilterAge);
+            Controls.Add(label11);
+            Controls.Add(cmbFilter);
+            Controls.Add(label10);
+            Controls.Add(lbxFilter);
             Controls.Add(lblInfo2);
             Controls.Add(lblInfo1);
             Controls.Add(lbxInfo2);
@@ -446,5 +502,10 @@
         private ToolStripMenuItem helpToolStripMenuItem;
         private OpenFileDialog openFileDialog1;
         private SaveFileDialog saveFileDialog1;
+        private ListBox lbxFilter;
+        private Label label10;
+        private ComboBox cmbFilter;
+        private Label label11;
+        private TextBox txtFilterAge;
     }
 }

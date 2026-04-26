@@ -28,5 +28,11 @@ namespace Assignment3
 
             return $"{reptileInfo}, Tail Length: {TailLength}";
         }
+
+        public override string ToTextString()
+        {
+            string baseData = base.ToTextString();
+            return $"{baseData},{tailLength}";
+        }
     }
 }

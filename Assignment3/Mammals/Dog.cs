@@ -35,5 +35,11 @@ namespace Assignment3
 
             return $"{mammalInfo}, Breed: {Breed}";
         }
+
+        public override string ToTextString()
+        {
+            string baseData = base.ToTextString();
+            return $"{baseData},{breed}";
+        }
     }
 }

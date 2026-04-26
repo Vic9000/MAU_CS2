@@ -26,5 +26,12 @@ namespace Assignment3
             string waterInfo = LivesInWater ? "Yes" : "No";
             return $"Body Length: {BodyLength}, Lives in Water: {waterInfo}";
         }
+
+        public override string ToTextString()
+        {
+            string baseData = base.ToTextString();
+            string waterInfo = LivesInWater ? "Lives in water" : "Does not live in water";
+            return $"{baseData},{bodyLength},{waterInfo}";
+        }
     }
 }

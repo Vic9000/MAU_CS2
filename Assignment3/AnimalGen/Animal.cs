@@ -3,9 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Security.Permissions;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace Assignment3
 {
+    [JsonDerivedType(typeof(Dog), typeDiscriminator: "Dog")]
+    [JsonDerivedType(typeof(Cat), typeDiscriminator: "Cat")]
+    [JsonDerivedType(typeof(Turtle), typeDiscriminator: "Turtle")]
+    [JsonDerivedType(typeof(Lizard), typeDiscriminator: "Lizard")]
     public class Animal : IAnimal
     {
         public string Id { get; set; }
@@ -32,6 +37,11 @@ namespace Assignment3
             string species = this.GetType().Name;
 
             return $"{Id,-5} {species,-8} {name,-14} {Age,-7} {Weight,-7} {Gender}";
+        }
+
+        public virtual string ToTextString()
+        {
+            return $"{this.GetType().BaseType.Name},{this.GetType().Name},{Id},{Name},{Age},{Weight},{Gender}";
         }
     }
 }
