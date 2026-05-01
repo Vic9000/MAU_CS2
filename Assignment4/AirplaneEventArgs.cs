@@ -6,13 +6,15 @@ namespace Assignment4
 {
     public class AirplaneEventArgs : EventArgs
     {
+        public string PlaneName { get; }
         public string FlightNumber { get; }
         public string Destination { get; }
         public string StatusMessage { get; }
         public DateTime Timestamp { get; }
 
-        public AirplaneEventArgs(string flightNumber, string destination, string statusMessage, DateTime timestamp)
+        public AirplaneEventArgs(string planeName, string flightNumber, string destination, string statusMessage)
         {
+            PlaneName = planeName;
             FlightNumber = flightNumber;
             Destination = destination;
             StatusMessage = statusMessage;

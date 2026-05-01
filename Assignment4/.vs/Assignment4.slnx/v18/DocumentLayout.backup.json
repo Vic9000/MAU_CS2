@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\",
+  "WorkspaceRootPath": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment4\\controltower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|solutionrelative:controltower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment4\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|solutionrelative:airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment4\\controltower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|solutionrelative:controltower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment4\\airplaneeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|solutionrelative:airplaneeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment4\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|solutionrelative:airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|c:\\users\\victor\\source\\repos\\vic9000\\mau_cs2\\assignment4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89746A9B-EE45-47D1-9B88-987DFC7D24CA}|Assignment4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|c:\\users\\vnord\\github\\mau_cs2\\assignment4\\airplaneeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D8760C-739D-21EF-38D6-1A652FDDFABC}|Assignment4.csproj|solutionrelative:airplaneeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,54 +30,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ControlTower.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\ControlTower.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\ControlTower.cs",
               "RelativeDocumentMoniker": "ControlTower.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\ControlTower.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\ControlTower.cs",
               "RelativeToolTip": "ControlTower.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAQwDEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T08:44:49.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Airplane.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\Airplane.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\Airplane.cs",
               "RelativeDocumentMoniker": "Airplane.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\Airplane.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\Airplane.cs",
               "RelativeToolTip": "Airplane.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAmwEsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T08:22:16.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AirplaneEventArgs.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\AirplaneEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\AirplaneEventArgs.cs",
               "RelativeDocumentMoniker": "AirplaneEventArgs.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\AirplaneEventArgs.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\AirplaneEventArgs.cs",
               "RelativeToolTip": "AirplaneEventArgs.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T08:20:00.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-30T08:12:30.301Z",
@@ -85,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\Vic9000\\MAU_CS2\\Assignment4\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\vnord\\Github\\MAU_CS2\\Assignment4\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T08:12:28.023Z",
               "EditorCaption": ""

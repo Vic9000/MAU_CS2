@@ -30,8 +30,8 @@ namespace Assignment4
 
         public void SendTakeOffCommand(Airplane airplane)
         {
-            // Checks if the plane is allowed to take off
-            if (!airplane.InFlight)
+            // Checks if the plane exists and is allowed to take off
+            if (airplane != null && !airplane.InFlight)
             {
                 airplane.AuthorizeTakeOff();
             }

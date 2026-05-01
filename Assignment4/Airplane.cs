@@ -8,6 +8,7 @@ namespace Assignment4
     public class Airplane
     {
         // Properties
+        public string Name { get; set; }
         public string FlightNumber { get; set; }
         public string Destination { get; set; }
         public int FlightTime { get; set; }  // Unit: hours
@@ -17,18 +18,19 @@ namespace Assignment4
         public event EventHandler<AirplaneEventArgs> TakeOff;
         public event EventHandler<AirplaneEventArgs> Landed;
 
-        private DispatcherTimer dispatchTimer;
+        private DispatcherTimer _flightTimer;
 
-        public Airplane(string flightNumber, string destination, int flightTime)
+        public Airplane(string name, string flightNumber, string destination, int flightTime)
         {
+            Name = name;
             FlightNumber = flightNumber;
             Destination = destination;
             FlightTime = flightTime;
             InFlight = false;
 
             // Initialize timer
-            dispatchTimer = new DispatcherTimer();
-            dispatchTimer.Tick += DispatchTimer_Tick;
+            _flightTimer = new DispatcherTimer();
+            _flightTimer.Tick += FlightTimer_Tick;
         }
 
         public void AuthorizeTakeOff()
@@ -38,24 +40,27 @@ namespace Assignment4
 
             InFlight = true;
 
-            dispatchTimer.Interval = TimeSpan.FromSeconds(FlightTime);
-            dispatchTimer.Start();
+            _flightTimer.Interval = TimeSpan.FromSeconds(FlightTime);
+            _flightTimer.Start();
 
             // TakeOff event trigger
-            string message = $"Flight {FlightNumber} has taken off for {Destination}.";
-            OnTakeOff(new AirplaneEventArgs(FlightNumber, Destination, message));
+            string message = $"The aircraft {Name} is taking off, destination {Destination}";
+            OnTakeOff(new AirplaneEventArgs(Name, FlightNumber, Destination, message));
         }
 
-        private void DispatchTimer_Tick(object sender, EventArgs e)
+        private void FlightTimer_Tick(object sender, EventArgs e)
         {
             // Stop timer to prevent looping
-            dispatchTimer.Stop();
+            _flightTimer.Stop();
             InFlight = false;
 
+            // Store current destination to use in Landed message
+            string departedDestination = Destination;
+            // Change destination to Home when a plane has landed
             Destination = "Home";
 
-            string message = $"Flight {FlightNumber} has safely landed.";
-            OnLanded(new AirplaneEventArgs(FlightNumber, Destination, message));
+            string message = $"{Name} has landed in {departedDestination}";
+            OnLanded(new AirplaneEventArgs(Name, FlightNumber, Destination, message));
         }
 
         protected virtual void OnTakeOff(AirplaneEventArgs e)
@@ -71,8 +76,8 @@ namespace Assignment4
         // Helper function for displaying the info in a ListBox
         public override string ToString()
         {
-            string status = InFlight ? "Airborne" : "Grounded";
-            return $"{FlightNumber} -> {Destination} ({status})";
+            string status = InFlight ? "(In Flight)" : "(Grounded)";
+            return $"{Name},{FlightNumber}, heading for {Destination} {status}";
         }
     }
 }
